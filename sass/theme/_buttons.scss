@@ -1,0 +1,7 @@
+.fl-builder-content .fl-node-content a.fl-button{
+  @extend .btn;
+  @extend .btn-primary;  
+  .fl-button-text{
+    color:#fff;
+  }
+}

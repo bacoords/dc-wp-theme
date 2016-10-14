@@ -1,0 +1,18 @@
+.entry-content{
+  blockquote{
+    display: block;
+    padding:0.5rem;
+    padding-left: 2rem;
+    border-left: 3px solid $brand-primary;
+    margin: 2rem 0;
+    background: rgba($brand-primary, 0.1);
+    p{
+      margin-bottom:0;
+      font-size: 1.3rem;
+      font-family: $font-family-sans-serif;
+    }
+  }
+  a{
+    cursor: pointer;
+  }
+}

@@ -1,0 +1,42 @@
+#archive-wrapper{
+  
+  .page-header{
+    margin-bottom: 3rem;
+    h1 {
+      font-weight: 800;
+    }
+  }
+  
+  
+  article{
+    @extend .row;
+    margin-bottom:3rem;
+  }
+  .entry-header{
+    @extend .col-md-3;
+  }
+  .entry-content{
+    @extend .col-md-8;
+    @extend .offset-md-1;
+  }
+  .entry-meta{
+    font-size:0.9rem;
+    font-family: $font-family-sans-serif;
+    margin-bottom: 1rem;
+    padding-left:1rem;
+  }
+  .entry-title{
+    width: 100%;
+  }
+  .understrap-read-more-link{
+    background:$brand-primary;
+    border-color: $brand-primary;
+    color:$white;
+    transition: all 300ms ease;
+    &:hover{
+      border-color: $brand-primary;
+      color:$brand-primary;
+      background: transparent;
+    }
+  }
+}

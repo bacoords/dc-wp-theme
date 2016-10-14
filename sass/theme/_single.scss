@@ -1,0 +1,22 @@
+#single-wrapper{
+  .featured-image{
+    header{ 
+      min-height: 60vh;
+      margin-bottom: 4rem;
+      padding:1rem;
+      display: flex;
+      flex-direction: column;
+      align-content: center;
+      justify-content: flex-end;
+      background: linear-gradient(180deg,transparent 75%,#000);
+      * {
+        color:#fff;
+        text-align: center;
+      }
+      .entry-title{
+        font-size: 4rem;
+        font-weight: 900;
+      }
+    }
+  }
+}

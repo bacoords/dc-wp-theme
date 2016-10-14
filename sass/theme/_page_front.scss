@@ -1,0 +1,24 @@
+#wrapper-page-front{
+  margin-top:2rem;
+  .post a{
+    min-height: 500px;
+    padding: 1rem;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    color:#fff;
+    font-family: $font-family-sans-serif;
+    font-weight: 900;
+    background:rgba($brand-primary,0);
+    transition:all 300ms ease;
+    .entry-title{
+      font-weight:900;
+    }
+    &:hover, &:active, &:focus{
+      color:$gray-lighter;
+      text-decoration: none;
+      background:rgba($brand-primary,0.9);
+    }
+    
+  }
+}
