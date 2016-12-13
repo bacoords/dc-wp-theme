@@ -23,7 +23,7 @@ get_header(); ?>
 
                 <div class="entry-meta">
 
-                  Published: <?php the_time('F j, Y'); ?>
+                  <?php the_time('F j, Y'); ?>
 
                 </div><!-- .entry-meta -->
 

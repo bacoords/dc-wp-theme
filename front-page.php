@@ -36,12 +36,12 @@ get_header(); ?>
                 <div class="col-md-6 col-xl-4 offset-xl-1 flex-xs-middle">
                  <div class="p-a-2">
                   <h2>Welcome!</h2>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi nisi, assumenda enim quis odio nam reprehenderit pariatur consectetur iusto ducimus inventore, minus? Eos saepe nobis dolorum dolor tenetur eligendi, velit.</p>
+                  <p>We all desire to be understood. To simply share our hearts and be heard. This blog fulfills that need. Here I share my heart, the good and the bad, as I navigate through being a wife, a mother, sister, daughter, and friend.</p>
                   <a href="/" class="fp-feat__btn">More About Me</a>
                   </div>
                 </div>
                 <div class="col-md-6 offset-xl-1">
-                  <img src="<?php echo get_stylesheet_directory_uri(); ?>/src/img/family-lg.jpg" alt="Dayna Coords" class="img-fluid pull-xs-right">
+                  <img src="http://daynacoords.com/wp-content/uploads/2016/12/family.jpg" alt="Dayna Coords" class="img-fluid pull-xs-right">
                 </div>
                 
               </div>
