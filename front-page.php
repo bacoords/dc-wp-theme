@@ -41,7 +41,7 @@ get_header(); ?>
                   </div>
                 </div>
                 <div class="col-md-6 offset-xl-1">
-                  <img src="http://daynacoords.com/wp-content/uploads/2016/12/family.jpg" alt="Dayna Coords" class="img-fluid pull-xs-right">
+                  <img src="https://daynacoords.com/wp-content/uploads/2016/12/family.jpg" alt="Dayna Coords" class="img-fluid pull-xs-right">
                 </div>
                 
               </div>
