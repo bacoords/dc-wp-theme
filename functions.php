@@ -16,3 +16,14 @@ function theme_enqueue_styles() {
     wp_enqueue_style( 'child-understrap-google-fonts', 'https://fonts.googleapis.com/css?family=Amatic+SC:700|Lora:400,700', array());
     wp_enqueue_script( 'child-understrap-scripts', get_stylesheet_directory_uri() . '/js/child-theme.min.js', array(), '0.1.0', true );
 }
+add_filter( 'tiled_gallery_content_width', 'wpsites_custom_tiled_gallery_width' );
+/**
+ * @author    Brad Dalton
+ * @example   http://wpsites.net/
+ * @copyright 2014 WP Sites
+ */
+function wpsites_custom_tiled_gallery_width($width){
+    $tiled_gallery_content_width = $width;
+    $width = 760;
+    return $width;
+}
