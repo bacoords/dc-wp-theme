@@ -37,7 +37,7 @@ get_header(); ?>
                  <div class="p-a-2">
                   <h2>Welcome!</h2>
                   <p>We all desire to be understood. To simply share our hearts and be heard. This blog fulfills that need. Here I share my heart, the good and the bad, as I navigate through being a wife, a mother, sister, daughter, and friend.</p>
-                  <a href="<?php echo esc_url( home_url( '/' ) ); ?>/about" class="fp-feat__btn">More About Me</a>
+                  <a href="<?php echo esc_url( home_url( '/' ) ); ?>about" class="fp-feat__btn">More About Me</a>
                   </div>
                 </div>
                 <div class="col-md-6 offset-xl-1">
