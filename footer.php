@@ -82,7 +82,7 @@
               </a>
               <span class="sep"> | </span> 
 -->
-              &copy; 2016 DaynaCoords.com
+              &copy; <?php echo date('Y'); ?> DaynaCoords.com
             </div>
             <!-- .site-info -->
 
