@@ -20,15 +20,17 @@ if ( ! is_active_sidebar( 'sidebar-1' ) ) {
 <!--    <h4 class="widget_bio__social-header text-xs-center">Connect with Me</h4>-->
 
   </aside>
+<!--
   <aside id="bio" class="widget widget_social">
     <div class="widget_social">
       <ul class="widget_social__list">
-        <li><a href="#"><i class="fa fa-facebook fa-fw" aria-hidden="true"></i></a></li>
+        <li><a href=""><i class="fa fa-facebook fa-fw" aria-hidden="true"></i></a></li>
         <li><a href="#"><i class="fa fa-instagram fa-fw" aria-hidden="true"></i></a></li>
         <li><a href="#"><i class="fa fa-pinterest fa-fw" aria-hidden="true"></i></a></li>
       </ul>
     </div>
   </aside>
+-->
 	<?php dynamic_sidebar( 'sidebar-1' ); ?>
 	
 </div><!-- #secondary -->
