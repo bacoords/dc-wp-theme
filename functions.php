@@ -27,3 +27,7 @@ function wpsites_custom_tiled_gallery_width($width){
     $width = 760;
     return $width;
 }
+
+if ( ! isset( $content_width ) ) {
+    $content_width = 1200;
+}
