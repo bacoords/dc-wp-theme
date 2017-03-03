@@ -41,16 +41,16 @@
   &-ul{
     margin:0 0 1.5rem;
     padding:0;
-    @media (min-width: 544px) {
+
       text-align: center;
       width:100%;
-    }
+
     li{
       
-      @media (min-width: 544px) {
+
         float:none;
         display: inline-block;
-      }
+
       a.nav-link{
         color:#fff;
         font-family:$font-family-sans-serif;

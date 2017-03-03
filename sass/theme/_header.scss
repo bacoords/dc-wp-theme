@@ -32,6 +32,12 @@
     }
   }
 
+  .navbar-toggle {
+    border-color: $brand-primary;
+  }
+  .navbar-toggle .icon-bar{
+    background-color: $brand-primary;
+  }
 }
 
 
